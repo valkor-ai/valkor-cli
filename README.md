@@ -20,12 +20,6 @@ To install a specific version:
 curl -fsSL https://beeuni.ai/install | VALKOR_VERSION=0.10.0 bash
 ```
 
-To use the development channel:
-
-```sh
-curl -fsSL https://beeuni.ai/install | VALKOR_CHANNEL=dev bash
-```
-
 The release assets are named:
 
 ```text

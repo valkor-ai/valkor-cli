@@ -17,7 +17,7 @@ The installer detects macOS or Linux and downloads the matching binary for
 To install a specific version:
 
 ```sh
-curl -fsSL https://beeuni.ai/install | VALKOR_VERSION=0.1.0 bash
+curl -fsSL https://beeuni.ai/install | VALKOR_VERSION=0.1.3 bash
 ```
 
 The release assets are named:

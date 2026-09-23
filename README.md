@@ -17,7 +17,7 @@ The installer detects macOS or Linux and downloads the matching binary for
 To install a specific version:
 
 ```sh
-curl -fsSL https://beeuni.ai/install | VALKOR_VERSION=0.1.3 bash
+curl -fsSL https://beeuni.ai/install | VALKOR_VERSION=0.1.4 bash
 ```
 
 The release assets are named:
@@ -29,6 +29,13 @@ valkor-linux-arm64
 valkor-linux-x64
 SHA256SUMS
 ```
+
+## Desktop app
+
+Desktop installers are attached to the [latest release](https://github.com/valkor-ai/valkor-cli/releases/latest).
+The macOS download is a universal `.dmg` for Apple Silicon and Intel. Desktop
+releases also include update metadata alongside the installers.
+These desktop installers are unsigned; in-app automatic updates require signed builds.
 
 ## Usage
 
